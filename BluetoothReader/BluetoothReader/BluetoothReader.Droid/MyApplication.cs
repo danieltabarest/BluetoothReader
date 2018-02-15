@@ -67,7 +67,7 @@ namespace BluetoothReader.Droid
    }
 
    [Activity(
-      Label = "BLE.net Sample App",
+      Label = "BLE Test",
       Theme = "@style/MainTheme",
       MainLauncher = false,
       Icon = "@drawable/icon",

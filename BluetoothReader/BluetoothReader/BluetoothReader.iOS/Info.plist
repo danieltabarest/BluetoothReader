@@ -23,7 +23,7 @@
 	<key>MinimumOSVersion</key>
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>BLE.net Sample App</string>
+	<string>BLE Test</string>
 	<key>CFBundleIdentifier</key>
 	<string>BluetoothReader</string>
 	<key>CFBundleVersion</key>

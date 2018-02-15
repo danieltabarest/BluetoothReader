@@ -1,10 +1,4 @@
-﻿// Copyright Malachi Griffie
-// 
-// This Source Code Form is subject to the terms of the Mozilla Public
-// License, v. 2.0. If a copy of the MPL was not distributed with this
-// file, You can obtain one at https://mozilla.org/MPL/2.0/.
-
-using System;
+﻿using System;
 using System.Reflection;
 using Acr.UserDialogs;
 using BluetoothReader.view;
@@ -54,7 +48,7 @@ namespace BluetoothReader
          m_rootPage = new NavigationPage(
             new TabbedPage
             {
-               Title = "BLE.net Sample App",
+               Title = "BLE Test",
                Children = {new BleDeviceScannerPage( bleScanViewModel ), new LogsPage( logsVm )}
             } );
 
@@ -72,9 +66,7 @@ namespace BluetoothReader
                () =>
                {
                   m_dialogs.Alert(
-                     "The UWP API can listen for advertisements but is not yet able to connect to devices.",
-                     "Quick Note",
-                     "Aww, ok" );
+                     "");
                   return false;
                } );
          }
